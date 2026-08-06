@@ -53,6 +53,21 @@ Key entities include:
 - Outstanding Payment
 
 Junction tables were used to model relationships between services and transactions, including treatment services, billing estimate services, invoice services, and claim services.
+## Entity Relationship Diagram
+
+The ERD below illustrates the relational structure of the healthcare cost transparency database, including patient care, insurance, billing, claims, and payment data.
+
+### ERD — Part 1
+
+![Healthcare Cost Transparency Database ERD Part 1](images/healthcare_database_erd.png)
+
+### ERD — Part 2
+
+![Healthcare Cost Transparency Database ERD Part 2](images/healthcare_database_erd2.png)
+
+The database connects patient, physician, treatment, insurance, billing, claims, and payment information through primary and foreign key relationships.
+
+Bridge tables such as `Treatment_Service`, `BillingEstimate_Service`, `Invoice_Service`, and `Claim_Service` are used to resolve many-to-many relationships between healthcare services and related transactions.
 
 ## SQL Queries
 
