@@ -116,6 +116,7 @@ These components demonstrate how the underlying relational database could suppor
 - **Healthcare_Cost_Transparency_Database.accdb** — Microsoft Access implementation of the relational database
 - **Database_Design_and_Documentation.pdf** — Business requirements, business rules, normalized ERD, data dictionary, design decisions, forms, and reports
 - **SQL_Queries_and_Reports.pdf** — SQL queries and selected database reports
+- **queries.sql** — Sample SQL queries for treatment costs, invoice services, and estimated vs. actual billing costs
 
 ## Project Contribution
 
